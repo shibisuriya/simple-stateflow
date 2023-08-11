@@ -1,7 +1,7 @@
 {
   "name": "@simple-stateflow/react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/App.jsx",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config ./webpack.prod.config.js",
@@ -19,5 +19,9 @@
     "webpack-dev-server": "^4.15.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "exports": {
+    ".": "./src/App.jsx",
+    "/App": "./src/App.jsx"
   }
 }

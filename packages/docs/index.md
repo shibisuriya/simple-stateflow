@@ -23,3 +23,17 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<div ref="el"></div>
+
+<script setup>
+import { createElement } from 'react'
+import { createRoot } from 'react-dom/client'
+import { ref, onMounted } from 'vue'
+import App from '@simple-stateflow/react'
+
+const el = ref()
+onMounted(() => {
+  const root = createRoot(el.value)
+  root.render(createElement(App, {}, null))
+})
+</script>
