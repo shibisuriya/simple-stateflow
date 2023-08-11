@@ -1,0 +1,9 @@
+.square {
+  border: 1px solid red;
+  position: absolute;
+}
+
+.square-container {
+  border: 1px solid black;
+  position: relative;
+}

@@ -9,6 +9,8 @@
     "packages/*"
   ],
   "scripts": {
+    "dev:react": "lerna run dev --scope=@simple-stateflow/react",
+    "build:react": "lerna run build --scope=@simple-stateflow/react",
     "build:core": "lerna run build --scope=@simple-stateflow/core",
     "dev:docs": "lerna run dev --scope=@simple-stateflow/docs",
     "build:docs": "lerna run build --scope=@simple-stateflow/docs"
