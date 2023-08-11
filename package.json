@@ -9,8 +9,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build:core": "lerna run build --scope=@simple-image-annotator/core",
-    "dev:docs": "lerna run dev --scope=@simple-image-annotator/docs"
+    "build:core": "lerna run build --scope=@simple-stateflow/core",
+    "dev:docs": "lerna run dev --scope=@simple-stateflow/docs",
+    "build:docs": "lerna run build --scope=@simple-stateflow/docs"
   },
   "private": true,
   "dependencies": {},
